@@ -48,7 +48,7 @@ ftn-offload:
 	"CFLAGS_OMP = -fopenmp" \
 	"FFLAGS_ACC =" \
 	"CFLAGS_ACC =" \
-        "FFLAGS_GPU = -fopenmp -hnoacc -homp" \
+    "FFLAGS_GPU = -fopenmp -hnoacc -homp" \
 	"BUILD_TARGET = $(@)" \
 	"CORE = $(CORE)" \
 	"DEBUG = $(DEBUG)" \
